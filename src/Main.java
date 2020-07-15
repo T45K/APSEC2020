@@ -23,4 +23,16 @@ public class Main {
             System.out.println(j);
         }
     }
+
+    void fizzBuzz3(int j) {
+        if (j % 3 == 0) {
+            System.out.println("fizz");
+        } else if (j % 5 == 0) {
+            System.out.println("buzz");
+        } else if (j % 15 == 0) {
+            System.out.println("fizzbuzz");
+        }else {
+            System.out.println(j);
+        }
+    }
 }

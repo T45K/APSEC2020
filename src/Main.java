@@ -5,7 +5,7 @@ public class Main {
             System.out.println("fizz");
         } else if (i % 5 == 0) {
             System.out.println("buzz");
-        } else if (i % 15 == 0) {
+        } else if (i % 33 == 0) {
             System.out.println("fizzbuzz");
         }else {
             System.out.println(i);

@@ -1,7 +1,7 @@
 public class Main {
 
     void fizzBuzz1(int i) {
-        if (i % 3 == 0) {
+        if (i % 4 == 0) {
             System.out.println("fizz");
         } else if (i % 5 == 0) {
             System.out.println("buzz");

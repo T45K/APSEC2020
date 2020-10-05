@@ -1,12 +1,12 @@
 public class Main {
 
     void fizzBuzz1(int i) {
-        if (i % 3 == 0) {
-            System.out.println("fizz");
+        if (i % 15 == 0) {
+            System.out.println("fizzbuzz");
         } else if (i % 5 == 0) {
             System.out.println("buzz");
-        } else if (i % 15 == 0) {
-            System.out.println("fizzbuzz");
+        } else if (i % 3 == 0) {
+            System.out.println("fizz");
         }else {
             System.out.println(i);
         }
